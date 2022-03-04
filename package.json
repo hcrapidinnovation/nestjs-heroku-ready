@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "A boilerplate for Nest (heroku ready) API.",
 	"scripts": {
-		"start": "node dist/main.js",
+		"start": "node dist/src/main.js",
 		"build": "rimraf build && gulp --prod",
 		"lint": "tslint src/server.ts 'src/api/**/*.ts'",
 		"test": "cross-env JEST_ENV=api jest \"src/api/.*\\.ts$\" --coverage --forceExit",
